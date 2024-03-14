@@ -7,6 +7,7 @@ import Intro from './Introduction';
 import Service from './Service';
 import { StyledPage } from './styles';
 import Footer from './Footer';
+import ScrollToTopButton from './MoveToTopButton';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Objectives />
       <Service />
       <Footer />
+      <ScrollToTopButton />
     </StyledPage>
   );
 }
